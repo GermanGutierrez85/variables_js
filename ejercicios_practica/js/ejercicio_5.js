@@ -15,6 +15,19 @@
 //    me trae mas suerte que el numero 
 //    13
 
-/* ELIMINE ESTE COMENTARIO
-let textoNumero = "El numero";
-*/
+
+const textoNumero = "El numero ";
+let numero1 = 7;
+const textoSuerte = " me trae mas suerte que el numero ";
+let numero2 = 13;
+console.log(textoNumero + numero1 + textoSuerte + numero2); //Opcion en una linea.
+
+/*Segunda opcion de impresion. 
+Para esta opcion, debera comentar la constante "textoSuerte"de la
+seccin anteriore*/
+
+/* const textoSuerte = "me trae mas suerte que el numero ";
+console.log(textoNumero);
+console.log(numero1);
+console.log(textoSuerte);
+console.log(numero2); */
